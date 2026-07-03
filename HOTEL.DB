@@ -1,0 +1,72 @@
+# Hotel Management System
+
+## Overview
+
+This project is a Hotel Management System developed using MySQL. It demonstrates the design and implementation of a relational database for managing hotel operations, including customers, rooms, bookings, payments, and hotel services.
+
+The project was created as part of my database learning journey to strengthen my SQL and database design skills.
+
+
+## Features
+
+- Customer Management
+- Room Management
+- Booking Management
+- SQL Queries and Reports
+- Database Relationships
+- Data Analysis using SQL
+
+
+## Database Tables
+
+- Customers
+- Rooms
+- Bookings
+- Employees
+- Services
+- Payments
+- Invoices
+
+---
+
+## SQL Concepts Used
+
+- CREATE DATABASE
+- CREATE TABLE
+- INSERT
+- UPDATE
+- DELETE
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- INNER JOIN
+- LEFT JOIN
+- Aggregate Functions
+- Primary Keys
+- Foreign Keys
+- Database Relationships
+
+
+## Future Improvements
+
+- Views
+- Stored Procedures
+- Triggers
+- Python Integration
+- GUI Application
+- ERP Integration
+
+
+## Technologies
+
+- MySQL
+- SQL
+- MySQL Workbench
+
+
+## Author
+
+NW NEXUS
+Computer Engineering Student
