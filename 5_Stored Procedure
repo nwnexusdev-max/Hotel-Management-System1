@@ -1,0 +1,49 @@
+DELIMITER $$
+
+CREATE PROCEDURE AddBooking(
+
+    IN p_CustomerID INT,
+    IN p_RoomID INT,
+    IN p_CheckIn DATE,
+    IN p_CheckOut DATE,
+    IN p_NumberOfGuests INT
+
+)
+
+BEGIN
+
+INSERT INTO Bookings
+(
+CustomerID,
+RoomID,
+CheckIn,
+CheckOut,
+NumberOfGuests
+)
+
+VALUES
+(
+p_CustomerID,
+p_RoomID,
+p_CheckIn,
+p_CheckOut,
+p_NumberOfGuests
+);
+
+END $$
+
+DELIMITER ;
+
+
+
+
+...................................................................................................................................
+CALL AddBooking(
+
+4,
+7,
+'2026-08-10',
+'2026-08-14',
+2
+
+);
